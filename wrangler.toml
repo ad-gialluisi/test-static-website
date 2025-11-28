@@ -4,7 +4,7 @@ type = "javascript"
 # URL del tuo progetto di Pages
 account_id = "il-tuo-account-id"
 workers_dev = true
-pages_build_output_dir: "./",
+pages_build_output_dir = "./"
 
 compatibility_date = "2025-11-28"
 main = "index.js"  # O il nome del tuo file principale del worker
