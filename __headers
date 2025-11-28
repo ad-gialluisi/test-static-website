@@ -1,0 +1,6 @@
+/*
+Security-Header: value
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'self'
