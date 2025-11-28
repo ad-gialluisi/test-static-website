@@ -1,0 +1,9 @@
+name = "nome-del-tuo-worker"
+type = "javascript"
+
+# URL del tuo progetto di Pages
+account_id = "il-tuo-account-id"
+workers_dev = true
+
+compatibility_date = "2025-11-28"
+main = "index.js"  # O il nome del tuo file principale del worker
