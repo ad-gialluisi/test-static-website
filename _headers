@@ -1,6 +1,13 @@
 /*
-Security-Header: value
-X-Content-Type-Options: nosniff
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
 X-Frame-Options: DENY
-Content-Security-Policy: default-src 'self'
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; object-src 'none'; frame-ancestors 'none'
+Referrer-Policy: no-referrer
+Permissions-Policy: geolocation=(self), microphone=(), camera=(), fullscreen=(self)
+Expect-CT: max-age=86400, enforce
+Access-Control-Allow-Origin: https://test-static-website-1x9.pages.dev
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Pragma: no-cache
+Expires: 0
